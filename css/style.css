@@ -27,7 +27,8 @@ body {
 a {
   text-decoration: none;
 }
-P{
+
+p{
   text-decoration: none;
 }
 
@@ -36,6 +37,7 @@ P{
 h1 {
   font-size: 45px;
   color: black;
+  font-weight: 600;
 }
 
 h2 {
@@ -82,7 +84,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  font-family: 'Lato';
+  font-family: 'Inter';
   font-weight: 500;
   font-size: 18px;
   color: var(--white);
@@ -117,21 +119,20 @@ nav a {
   padding: 250px 0;
 }
 
-.imgprofile {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
 
 .logoclara {
   width: 120px;
   height: 60px;
 }
 
-.divprez {
-  padding: 20px;
+.menu {
+  display: none;
+  border:none;
 }
 
+.dropdown{
+  display: none;
+}
 
 /*Buttons----------------------------------------------------------  */
 .btn {
@@ -185,15 +186,12 @@ img:hover{
 }
 
 
-/*aboutmecontainer-----------------------------------*/
-.aboutmecontainer{
-  display: flex;
- width: 100%;
- grid-gap: 50px;
- padding: 70px;
-}
 
 /*card skill----------------------------------------------- */
+
+.skills{
+  padding-top: 50px;
+}
 .skills-card{
   margin: 80px;
   display: flex;
@@ -221,6 +219,18 @@ box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
   color: #108084
 }
 
+/*aboutmecontainer-----------------------------------*/
+
+.me{
+  padding-top: 50px;
+}
+
+.aboutmecontainer{
+  display: flex;
+ width: 100%;
+ grid-gap: 50px;
+ padding: 70px;
+}
 
 /*FOOTER ------------------------------------------------*/
 footer-basic {
