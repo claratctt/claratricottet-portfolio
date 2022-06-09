@@ -1,0 +1,287 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('css/font-awesome.min.css');
+@import url('css/text-headline.css');
+@import url('css/owl.carousel.min.css');
+@import url('css/hamburgers.min.css');
+@import url('css/animate.css');
+@import url('css/global.css');
+
+
+/* Body and texts---------------------------------------------------*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F6F6F6;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+h1 {
+  font-size: 45px;
+  color: black;
+
+
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p{
+  font-size: 16px;
+  color: black;
+}
+
+
+/* Menu de navigation---------------------------------------------------*/
+nav {
+  width: 100%;
+  padding: 22px 0;
+  border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--white);
+  padding-top: 7px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.nav .icon {
+  display: none;
+}
+
+.nav a:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.fa-solid fa-bars{
+  width: 50%;
+}
+
+/*Section slider presentation*/
+
+.single-slider {
+  background: rgba(0, 0, 0, 0) none repeat scroll center center / cover;
+  padding: 250px 0;
+}
+
+.imgprofile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.logoclara {
+  width: 120px;
+  height: 60px;
+}
+
+.divprez {
+  padding: 20px;
+}
+
+
+/*Buttons----------------------------------------------------------  */
+.btn {
+  -moz-user-select: none;
+  background: #108084 none repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: #108084;
+  color: black;
+}
+
+/*Grid  my works-----------------------*/
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
+padding: 50px;
+}
+
+.mywork {
+  padding: 50px;
+}
+
+/* hover effect image grid */
+
+img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+img:hover{
+	opacity: .9;
+}
+
+
+/*aboutmecontainer-----------------------------------*/
+.aboutmecontainer{
+  display: flex;
+ width: 100%;
+ grid-gap: 50px;
+ padding: 70px;
+}
+
+/*card skill----------------------------------------------- */
+.skills-card{
+  margin: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card{
+  padding: 20px;
+box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+  align-items: center;
+}
+
+.card p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card img{
+  padding-bottom: 20px;
+  width: 2vw;
+}
+
+.card h3{
+  color: #108084
+}
+
+
+/*FOOTER ------------------------------------------------*/
+footer-basic {
+  padding: 40px 0;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: #F7F4F4;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}

@@ -1,0 +1,80 @@
+@media screen and (max-width: 820px) {
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .map{
+    width: 100%;
+  }
+
+  .nav-items{
+      display: none;
+    }
+
+  .nav .icon {
+        float: right;
+        display: block;
+  }
+
+  #grid {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .mywork {
+    padding: 30px;
+  }
+
+  .skills-card{
+    flex-direction: column;
+  }
+
+  .aboutmecontainer{
+    flex-direction: column;
+  }
+
+  .card img{
+    width: 5vw;
+}
+
+@media screen and (max-width: 414px) {
+
+img{
+  width: 100%;
+  height: auto;
+}
+.map{
+  width: 100%;
+}
+.nav-items{
+    display: none;
+  }
+
+.nav .icon {
+      float: right;
+      display: block;
+}
+
+#grid {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.mywork {
+  padding: 30px;
+}
+
+.skills-card{
+  flex-direction: column;
+}
+
+.aboutmecontainer{
+  flex-direction: column;
+}
+
+.card img{
+  width: 5vw;
