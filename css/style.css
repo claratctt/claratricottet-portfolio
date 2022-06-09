@@ -27,15 +27,15 @@ body {
 a {
   text-decoration: none;
 }
-
+P{
+  text-decoration: none;
+}
 
 
 
 h1 {
   font-size: 45px;
   color: black;
-
-
 }
 
 h2 {
@@ -46,7 +46,6 @@ h2 {
 h3 {
   font-size: 22px;
   font-weight: 600;
-
 }
 
 h4 {
@@ -106,9 +105,10 @@ nav a {
   color: black;
 }
 
-.fa-solid fa-bars{
-  width: 50%;
+.slider-content p{
+  margin-bottom: 4rem;
 }
+
 
 /*Section slider presentation*/
 
@@ -142,7 +142,7 @@ nav a {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.42857;
   margin-bottom: 0;
@@ -181,7 +181,7 @@ img {
 	transition: .3s ease-in-out;
 }
 img:hover{
-	opacity: .9;
+	opacity: .5;
 }
 
 
